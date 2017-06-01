@@ -38,7 +38,7 @@ int main(int argc,char **argv){
 			input[i] = 1;
 
 	//Считаем значение выходного сигнала
-	calc_out = fann_run(ann, input);
+	//calc_out = fann_run(ann, input);
 
 	//вывод результатов c выходного нейрона
 	printf("%f\n", calc_out[0]);
